@@ -1,0 +1,36 @@
+package application;
+	
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.stage.Stage;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.scene.layout.BorderPane;
+
+
+public class Main extends Application {
+	@Override
+	public void start(Stage primaryStage){
+		try {
+			Parent root = FXMLLoader.load(getClass().getResource("LandingPageUI.fxml"));
+			Scene scene = new Scene(root,1500,750.0);
+			primaryStage.setScene(scene);
+	        primaryStage.setFullScreen(true); // Set to full screen
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			// Set the icon for the stage
+	        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("netflixLogo.png")));
+//	     // Disable resizing (including maximize button)
+//	        primaryStage.setResizable(false);
+			primaryStage.setTitle("Netflix Pakistan - Watch TV Shows Online, Watch Movies Online");
+			primaryStage.setScene(scene);
+			primaryStage.show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

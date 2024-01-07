@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hmax="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="4096.0" prefWidth="1590.0" style="-fx-background-color: black;" vmax="10.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="4084.0" prefWidth="1590.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="902.0" fitWidth="1601.0" layoutX="-11.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 0.5;">
+               <image>
+                  <Image url="@../../../Images/netflixBGLandingPage.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="97.0" fitWidth="185.0" layoutX="89.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1418.0" layoutY="36.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="102.0" style="-fx-background-color: #E50914;" text="anmelden" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="271.0" layoutY="319.0" prefHeight="81.0" prefWidth="1234.0" text="Películas ilimitadas, programas de TV y más" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="402.0" layoutY="400.0" prefHeight="42.0" prefWidth="672.0" text="Ver en cualquier lugar. Se puede cancelar en cualquier momento." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" layoutX="176.0" layoutY="453.0" prefHeight="42.0" prefWidth="1191.0" text="¿Listo para mirar? Ingrese su dirección de correo electrónico para crear o reiniciar su membresía." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="23.0" />
+               </font>
+            </Label>
+            <TextField layoutX="492.0" layoutY="499.0" prefHeight="59.0" prefWidth="383.0" promptText="Dirección de correo electrónico" style="-fx-background-color: black; -fx-text-fill: white; -fx-opacity: 0.7;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="889.0" layoutY="497.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="223.0" style="-fx-background-color: #E50914;" text="Empezando &gt;" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="-19.0" layoutY="901.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;" text="Label">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="397.0" fitWidth="518.0" layoutX="902.0" layoutY="981.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/tvNetflix.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="141.0" layoutY="1031.0" prefHeight="158.0" prefWidth="719.0" text="Disfrútalo en tu televisor" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="49.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="1189.0" prefHeight="33.0" prefWidth="615.0" text="Míralo en Smart TV, Playstation, Xbox y Chromecast" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="21.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="140.0" layoutY="1223.0" prefHeight="27.0" prefWidth="810.0" text="Apple TV, Blu-ray-PlayerApple TV, reproductores de Blu-ray y más. und mehr." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="-1.0" layoutY="1428.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;">
+               <font>
+                  <Font name="Arial Black" size="1.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="428.0" fitWidth="323.0" layoutX="247.0" layoutY="1517.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/mobile.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="772.0" layoutY="1587.0" prefHeight="69.0" prefWidth="792.0" text="Descarga tus programas" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="773.0" layoutY="1662.0" prefHeight="69.0" prefWidth="487.0" text="mirar sin conexión" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="776.0" layoutY="1731.0" prefHeight="67.0" prefWidth="782.0" text="Guarda fácilmente tus favoritos y siempre tendrás algo que ver." textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="115.0" fitWidth="370.0" layoutX="230.0" layoutY="1811.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/loading.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="-1.0" layoutY="2003.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Label>
+            <Label layoutX="240.0" layoutY="2081.0" prefHeight="90.0" prefWidth="390.0" text="Respecto" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="61.0" />
+               </font>
+            </Label>
+            <Label layoutX="240.0" layoutY="2171.0" prefHeight="90.0" prefWidth="520.0" text="en todos lados" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="61.0" />
+               </font>
+            </Label>
+            <Label layoutX="240.0" layoutY="2284.0" text="Transmita películas y series ilimitadas" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="239.0" layoutY="2320.0" text="Se muestra en su teléfono, tableta, computadora portátil," textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="238.0" layoutY="2357.0" text="y televisión." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="-1.0" layoutY="2465.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="391.0" fitWidth="514.0" layoutX="208.0" layoutY="2520.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/kids.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="780.0" layoutY="2581.0" prefHeight="90.0" prefWidth="720.0" text="Crear perfiles para niños" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="43.0" />
+               </font>
+            </Label>
+            <Label layoutX="785.0" layoutY="2681.0" prefHeight="32.0" prefWidth="594.0" text="Envía a los niños a aventuras con sus personajes favoritos." textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="785.0" layoutY="2712.0" prefHeight="32.0" prefWidth="732.0" text="Un espacio creado solo para ti, gratis con tu membresía." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutY="2960.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="573.0" layoutY="3017.0" prefHeight="87.0" prefWidth="611.0" text="preguntas frecuentes" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="50.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="3179.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Qué es Netflix?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Button layoutX="1217.0" layoutY="3180.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+            <Label layoutX="404.0" layoutY="3663.0" prefHeight="32.0" prefWidth="1031.0" text="¿Listo para mirar? Ingrese su dirección de correo electrónico para crear o reiniciar su membresía." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="559.0" layoutY="3718.0" prefHeight="46.0" prefWidth="335.0" promptText="Dirección de correo electrónico" style="-fx-background-color: #1c456b; -fx-text-fill: white; -fx-opacity: 0.7;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="905.0" layoutY="3717.0" mnemonicParsing="false" style="-fx-background-color: #E50914;" text="Empezando &gt;" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="-2.0" layoutY="3798.0" prefHeight="8.0" prefWidth="1601.0" style="-fx-background-color: grey; -fx-opacity: 0.4;">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </Label>
+            <Button layoutX="160.0" layoutY="3846.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="¿Preguntas? Contáctenos." textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="3870.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="FAQ" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="3894.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Relaciones con inversionistas" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="3919.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="privacidad" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="160.0" layoutY="3943.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="prueba de velocidad" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <MenuButton alignment="CENTER" contentDisplay="RIGHT" graphicTextGap="1.0" layoutX="166.0" layoutY="3982.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: black; -fx-border-color: white; -fx-border-radius: 8;" text="Spanish" textAlignment="RIGHT" textFill="WHITE">
+              <items>
+                  <MenuItem mnemonicParsing="false" style="-fx-background-color: black; -fx-text-fill: white;" text="English" />
+                <MenuItem mnemonicParsing="false" style="-fx-background-color: black; -fx-text-fill: white;" text="Spanish" />
+                <MenuItem mnemonicParsing="false" style="-fx-background-color: black; -fx-text-fill: white;" text="German" />
+              </items>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </MenuButton>
+            <Label alignment="TOP_LEFT" layoutX="168.0" layoutY="4041.0" prefHeight="33.0" prefWidth="147.0" text="Netflix Pakistan" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="470.0" layoutY="3870.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Centro de ayuda" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="470.0" layoutY="3894.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Trabajos" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="470.0" layoutY="3919.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Configuración de cookies" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="470.0" layoutY="3943.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Rechtliche Hinweise" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="695.0" layoutY="3871.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Konto" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="695.0" layoutY="3895.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Möglichkeiten zum Zuschauen" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="695.0" layoutY="3920.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Unternehmensinformationen" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="695.0" layoutY="3944.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Nur auf Netflix" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="919.0" layoutY="3870.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Media Center" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="919.0" layoutY="3894.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Nutzungsbedingungen" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="919.0" layoutY="3919.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Kontaktiere uns" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="225.0" fitWidth="277.0" layoutX="1197.0" layoutY="3843.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@netflixLogo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="303.0" layoutY="3254.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Cuánto cuesta Netflix?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="3329.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Dónde puedo mirar?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="3404.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Cómo puedo cancelar?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="3479.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Qué puedo ver en Netflix?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="303.0" layoutY="3554.0" prefHeight="68.0" prefWidth="1000.0" style="-fx-background-color: #2b2b2b;" text="¿Netflix es bueno para los niños?" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Button layoutX="1217.0" layoutY="3255.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="1217.0" layoutY="3329.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="1217.0" layoutY="3554.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="1217.0" layoutY="3479.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+            <Button layoutX="1217.0" layoutY="3404.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Condensed" size="31.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+  </content>
+</ScrollPane>

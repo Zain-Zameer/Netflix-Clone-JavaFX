@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1200.0" prefWidth="1590.0" style="-fx-background-color: #232324;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.accountSelectionController">
+   <children>
+      <ImageView fitHeight="63.0" fitWidth="544.0" layoutX="28.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/pngwing.com.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="630.0" layoutY="306.0" text="Who's watching?" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="146.0" fitWidth="143.0" layoutX="484.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/profile.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="146.0" fitWidth="143.0" layoutX="942.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Accountkids.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="484.0" layoutY="377.0" mnemonicParsing="false" onAction="#UserAccountPressed" prefHeight="146.0" prefWidth="143.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+      <Button layoutX="942.0" layoutY="377.0" mnemonicParsing="false" onAction="#kidsAccountPressed" prefHeight="146.0" prefWidth="143.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+      <Label layoutX="997.0" layoutY="537.0" text="Kids" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" layoutX="488.0" layoutY="534.0" text="Muhammad Zain" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

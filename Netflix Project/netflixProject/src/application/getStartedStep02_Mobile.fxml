@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1400.0" prefWidth="1590.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.getStartedStep02_MobileController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1400.0" prefWidth="1590.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="204.0" layoutX="59.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1347.0" layoutY="36.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="149.0" style="-fx-background-color: tranparent;" text="Sign Out">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="-6.0" layoutY="107.0" prefHeight="0.0" prefWidth="1590.0" style="-fx-background-color: grey; -fx-opacity: 0.3;">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="1.0" />
+               </font>
+            </Label>
+            <Label layoutX="348.0" layoutY="123.0" text="STEP">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="392.0" layoutY="122.0" text="2">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="408.0" layoutY="123.0" text="OF">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="438.0" layoutY="123.0" text="3">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="348.0" layoutY="149.0" text="Choose the plan that’s right for you">
+               <font>
+                  <Font name="SansSerif Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="383.0" layoutY="197.0" text="Watch all you want. Ad-free.">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutY="1172.0" prefHeight="229.0" prefWidth="1590.0" style="-fx-background-color: #EFEDEA;">
+               <children>
+                  <Button layoutX="100.0" layoutY="29.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Questions? Contact us." textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="106.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="FAQ" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="106.0" layoutY="118.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Privacy" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="424.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Help Center" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="424.0" layoutY="118.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Cookie Preferences" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="727.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Netflix Shop" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="727.0" layoutY="118.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Corporate Information" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1105.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Terms of Use" textFill="#787474fa">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+            <Label layoutX="349.0" layoutY="188.0" text="✓" textFill="RED">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="383.0" layoutY="242.0" text="Recommendations just for you.">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="349.0" layoutY="233.0" text="✓" textFill="RED">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="382.0" layoutY="289.0" text="Change or cancel your plan anytime.">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="348.0" layoutY="280.0" text="✓" textFill="RED">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="685.0" layoutY="335.0" mnemonicParsing="false" onAction="#mobileSelected" prefHeight="111.0" prefWidth="138.0" style="-fx-background-color: #f80a0a; -fx-cursor: hand;" text="Mobile" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="855.0" layoutY="335.0" mnemonicParsing="false" onAction="#basicSelected" prefHeight="111.0" prefWidth="138.0" style="-fx-background-color: #f80a0a; -fx-opacity: 0.5; -fx-cursor: hand;" text="Basic" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="1032.0" layoutY="335.0" mnemonicParsing="false" onAction="#standardSelected" prefHeight="111.0" prefWidth="138.0" style="-fx-background-color: #f80a0a; -fx-opacity: 0.5; -fx-cursor: hand;" text="Standard" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="1209.0" layoutY="335.0" mnemonicParsing="false" onAction="#premiumSelected" prefHeight="111.0" prefWidth="138.0" style="-fx-background-color: #f80a0a; -fx-opacity: 0.5; -fx-cursor: hand;" text="Premium" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="739.0" layoutY="424.0" prefHeight="32.0" prefWidth="29.0" text="▼" textFill="#f80a0a">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Label layoutX="327.0" layoutY="524.0" prefHeight="3.0" prefWidth="1070.0" style="-fx-background-color: grey; -fx-opacity: 0.3;">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="1.0" />
+               </font>
+            </Label>
+            <Label layoutX="346.0" layoutY="486.0" text="Monthly price" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="725.0" layoutY="486.0" text="Rs250" textFill="#f80a0a">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="905.0" layoutY="487.0" text="Rs450" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1078.0" layoutY="487.0" text="Rs800" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1252.0" layoutY="486.0" text="Rs1,100" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="327.0" layoutY="584.0" prefHeight="3.0" prefWidth="1070.0" style="-fx-background-color: grey; -fx-opacity: 0.3;">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="1.0" />
+               </font>
+            </Label>
+            <Label layoutX="346.0" layoutY="546.0" text="Video quality" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="725.0" layoutY="546.0" text="Good" textFill="#f80a0a">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="905.0" layoutY="547.0" text="Good" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1078.0" layoutY="547.0" text="Better" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1262.0" layoutY="546.0" text="Best" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="327.0" layoutY="642.0" prefHeight="3.0" prefWidth="1070.0" style="-fx-background-color: grey; -fx-opacity: 0.3;">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="1.0" />
+               </font>
+            </Label>
+            <Label layoutX="346.0" layoutY="604.0" text="Resolution" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="725.0" layoutY="604.0" text="480p" textFill="#f80a0a">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="905.0" layoutY="605.0" text="720p" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1078.0" layoutY="605.0" text="1080p" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="1252.0" layoutY="604.0" text="4K+HDR" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="346.0" layoutY="659.0" text="Devices you can use to watch" textFill="#515151">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="728.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/smartphone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="906.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/smartphone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1087.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/smartphone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1270.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/smartphone.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="726.0" layoutY="702.0" text="Phone" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="906.0" layoutY="702.0" text="Phone" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1085.0" layoutY="702.0" text="Phone" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1269.0" layoutY="702.0" text="Phone" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="729.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/tablet.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="907.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/tablet.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1088.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/tablet.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1271.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/tablet.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="727.0" layoutY="763.0" text="Tablet" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="907.0" layoutY="763.0" text="Tablet" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1086.0" layoutY="763.0" text="Tablet" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1270.0" layoutY="763.0" text="Tablet" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="906.0" layoutY="784.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/monitor.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1087.0" layoutY="784.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/monitor.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1270.0" layoutY="784.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/monitor.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="906.0" layoutY="825.0" text="Computer" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1085.0" layoutY="825.0" text="Computer" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1269.0" layoutY="825.0" text="Computer" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="907.0" layoutY="846.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/television.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1088.0" layoutY="846.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/television.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="1271.0" layoutY="846.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/television.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="907.0" layoutY="887.0" text="TV" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1086.0" layoutY="887.0" text="TV" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="1270.0" layoutY="887.0" text="TV" textFill="#545353">
+               <font>
+                  <Font name="SansSerif Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="345.0" layoutY="927.0" text="HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="345.0" layoutY="950.0" text="resolutions. See our Terms of Use for more details.resolutions. See our Terms of Use for more details.">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="345.0" layoutY="981.0" text="Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard, and 1 with Basic and">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="345.0" layoutY="1005.0" text="Mobile.">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="669.0" layoutY="1063.0" mnemonicParsing="false" onAction="#nextButtonPressed" prefHeight="64.0" prefWidth="402.0" style="-fx-background-color: #f80a0a; -fx-cursor: hand;" text="Next" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

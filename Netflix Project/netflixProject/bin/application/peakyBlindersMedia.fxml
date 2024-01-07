@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.peakyBlindersMediaController">
+   <children>
+      <MediaView fx:id="peakyBlindersTV" fitHeight="1200.0" fitWidth="1500.0" />
+      <ImageView fitHeight="37.0" fitWidth="29.0" layoutX="661.0" layoutY="697.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/playPeaky.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="661.0" layoutY="699.0" mnemonicParsing="false" onAction="#playPeakyPressed" prefHeight="8.0" prefWidth="29.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+      <ImageView fitHeight="37.0" fitWidth="29.0" layoutX="709.0" layoutY="697.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/pause-button.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="709.0" layoutY="699.0" mnemonicParsing="false" onAction="#pausePeakyPressed" prefHeight="8.0" prefWidth="29.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+      <ImageView fitHeight="37.0" fitWidth="29.0" layoutX="753.0" layoutY="697.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/resetPeaky.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="753.0" layoutY="699.0" mnemonicParsing="false" onAction="#resetPeakyPressed" prefHeight="8.0" prefWidth="29.0" style="-fx-background-color: transparent; -fx-cursor: hand;" />
+   </children>
+</AnchorPane>
